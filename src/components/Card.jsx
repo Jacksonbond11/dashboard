@@ -5,7 +5,8 @@ const Card = ({ img, title, link }) => {
     <a href={link} style={{ textDecoration: "none" }}>
       <div
         style={{
-     
+          
+          borderRadius: "5px",
           padding: "10px",
           transition: "background-color 0.3s",
         }}
